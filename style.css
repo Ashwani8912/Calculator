@@ -1,0 +1,73 @@
+body{
+    background-image: url(project1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#cal{
+font-family: 'Times New Roman', Times, serif;
+overflow: hidden;
+max-width: 400px;
+backdrop-filter: blur(5px);
+background-color: rgba(159,134,192, 1);
+border-radius: 18px;
+border: 20px solid rgb(252, 191, 220);
+box-shadow: 10px 10px 20px rgb(223, 138, 223);
+}   
+#text{
+    width: 290px;
+    padding: 35px;
+    text-align: left;
+    border-radius: 1.5px;
+    background-color: rgba(126, 187, 223, 0.733);
+    color: rgb(15, 17, 17);
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: cursive;
+}
+#display{
+    background-color: rgb(254, 253, 255);
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(5,1fr);
+}
+
+#op{
+    background-color: rgba(235, 72, 72, 0.288);
+}
+
+#op:hover{
+    background-color: rgb(14, 171, 177);
+}
+
+button{
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgb(118, 135, 211);
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin: 10px;
+    color: rgb(15, 15, 15);
+    font-family: cursive;
+    box-shadow: 8px 8px 10px rgb(235, 110, 228);
+}
+
+button:hover{
+    background-color: rgb(218, 224, 126);
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+#equal{
+    background-color: rgb(190,149,196);
+}
+#equal:hover{
+    background-color: rgb(162, 235, 238);
+}
